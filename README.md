@@ -22,7 +22,7 @@ Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.0.0
 Get-InstalledModule
 ```
 
-首次安装需要设定运用远程安装：
+首次安装需要设定允许远程安装：
 
 ```PowerShell
 Set-ExecutionPolicy RemoteSigned
